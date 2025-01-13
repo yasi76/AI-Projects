@@ -12,6 +12,7 @@ A collection of Artificial Intelligence (AI) and Machine Learning (ML) projects 
    - [5. Facial Recognition System](#5-facial-recognition-system)
    - [6. Image Classification](#6-image-classification)
    - [7. Music Generation with RNNs](#7-music-generation-with-rnns)
+   - [8. Face Mask Detection with YOLOv5](#8-face-mask-detection-with-yolov5)
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
 5. [Usage](#usage)
@@ -76,14 +77,29 @@ This repository is a collection of AI and ML projects aimed at tackling a variet
 
 ---
 
+### **8. Face Mask Detection with YOLOv5**
+- **Description:** This project uses YOLOv5 for real-time face mask detection. It classifies individuals into three categories:
+  - With Mask
+  - Without Mask
+  - Mask Worn Incorrectly
+- **Technologies:** YOLOv5, Python, OpenCV, ONNX, CoreML, TFLite
+- **Key Features:**
+  - Training YOLOv5 on a custom dataset.
+  - Real-time mask detection using webcam or uploaded videos.
+  - Exporting the model to ONNX, CoreML, and TFLite formats for deployment.
+- **Use Case:** Real-time health monitoring and compliance enforcement.
+
+---
+
 ## **Technologies Used**
 - Python
 - TensorFlow / Keras
+- YOLOv5
 - Scikit-learn
 - Pandas / NumPy
 - OpenCV
 - Matplotlib / Seaborn
-- Jupyter Notebook
+- Music21
 
 ---
 
@@ -101,7 +117,16 @@ This repository is a collection of AI and ML projects aimed at tackling a variet
    pip install -r requirements.txt
    ```
 
+---
 
+## **Usage**
+1. Navigate to the specific project directory (e.g., `Face_Mask_Detection_YOLOv5`):
+   ```bash
+   cd Face_Mask_Detection_YOLOv5
+   ```
+2. Follow the notebook instructions for training or real-time detection:
+   - Train YOLOv5 on a custom dataset.
+   - Use a webcam or video file for real-time detection.
 
 ---
 
